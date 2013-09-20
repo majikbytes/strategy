@@ -1,3 +1,5 @@
+require 'kablammo'
+
 on_turn do
   'f10'
   'r90'
