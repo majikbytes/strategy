@@ -1,5 +1,4 @@
-require 'kablammo'
-require './examples/aggressive'
+require 'aggressive'
 
 on_turn do
   act_aggressively
