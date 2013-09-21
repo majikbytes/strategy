@@ -1,3 +1,4 @@
+require 'kablammo'
 require './examples/aggressive'
 
 on_turn do
