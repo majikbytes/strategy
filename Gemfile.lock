@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:carbonfive/kablammo-strategy
+  remote: git://github.com/carbonfive/kablammo-strategy.git
   revision: 40e97391aa588f49924c1b6e871396e4aa1ca295
   specs:
     kablammo (0.1)

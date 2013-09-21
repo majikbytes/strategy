@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
 
-gem 'kablammo', git: 'git@github.com:carbonfive/kablammo-strategy'
+gem 'kablammo', github: 'carbonfive/kablammo-strategy'
