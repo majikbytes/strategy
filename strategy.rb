@@ -1,15 +1,9 @@
 require 'kablammo'
 
 on_turn do
-  'f10'
-  'r90'
-  'f10'
-  'r90'
-  'f10'
-  'r90'
-  'f10'
-  'r90'
-  'n5'
-  '.'
-  'f10'
+  opponents.each do |o|
+    move_towards! o
+    aim_at! o
+    fire!
+  end
 end
