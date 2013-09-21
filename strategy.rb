@@ -1,7 +1,7 @@
-require './aggressive'
+require './terminator'
 
-include Aggressive
+include Terminator
 
 on_turn do
-  act_aggressively
+  terminate!
 end
